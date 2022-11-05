@@ -1,6 +1,7 @@
 import Profile from "./Profile";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Contact from "./Contact";
+import Footer from "./Footer";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           </Route>
         </Switch>
       </Router>
+      <Footer />
     </div>
   );
 }
